@@ -10,7 +10,7 @@ This repository contains my Java DSA practice and solutions.
 ## Topics
 
 - ✅ Patterns
-- ⬜ Arrays
+- ✅Arrays
 - ⬜ Strings
 - ⬜ Sorting
 - ⬜ Binary Search
