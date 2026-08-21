@@ -1,7 +1,8 @@
+//Divide and Merge Recursively
 import java.util.*;
 class MergeSort{
     public static void mergeSort(int[] arr,int low,int high){
-        if(low>=high)return;
+        if(low==high)return;
         int mid=(low+high)/2;
         mergeSort(arr,low,mid);
         mergeSort(arr,mid+1,high);
@@ -31,8 +32,8 @@ class MergeSort{
             right++;
         }
         // Copy the sorted elements back to the original array
-        for(int i=0,j=0;i<high-low+1;i++,j++){
-            arr[low+i]=temp[j];
+        for(int i=low;i<=high;i++){
+            arr[i]=temp[i-low];
         }
     }
     public static void main(String[] args){
