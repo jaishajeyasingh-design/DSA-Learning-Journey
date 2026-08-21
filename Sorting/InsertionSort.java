@@ -1,7 +1,7 @@
 //Take an element and place it in its correct order
 import java.util.*;
 public class InsertionSort {
-    public static void InsertionSort(int[] arr){
+    public static void insertionSort(int[] arr){
         int n=arr.length;
         for(int i=1;i<=n-1;i++){
             int j=i;
@@ -22,7 +22,7 @@ public class InsertionSort {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        InsertionSort(arr);
+        insertionSort(arr);
         System.out.println("Sorted array is:");
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");

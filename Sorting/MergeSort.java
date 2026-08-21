@@ -32,8 +32,8 @@ class MergeSort{
             right++;
         }
         // Copy the sorted elements back to the original array
-        for(int i=low;i<=high;i++){
-            arr[i]=temp[i-low];
+        for(int i=low,j=0;i<=high;i++,j++){
+            arr[i]=temp[j];
         }
     }
     public static void main(String[] args){
