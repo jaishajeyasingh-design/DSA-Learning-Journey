@@ -8,6 +8,9 @@ public class StackLLDemo {
         s.print();
         s.pop();
         s.print();
+        System.out.println(s.peek());
+        System.out.println(s.isEmpty());
+        System.out.println(s.contains(30));
     }
 }
 class Node{
@@ -44,5 +47,21 @@ class Stack{
             return;
         }
         top=top.next;
+    }
+    public int peek(){
+        if(top==null)return -1;
+        return top.data;
+    }
+    public boolean isEmpty(){
+        if(top==null)return true;
+        else return false;
+    }
+    public boolean contains(int target){
+        Node curr=top;
+        while(curr!=null){
+            if(curr.data==target)return true;
+            curr=curr.next;
+        }
+        return false;
     }
 }
