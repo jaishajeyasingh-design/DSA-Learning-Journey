@@ -1,9 +1,9 @@
-package Queue;
+package QueueClass;
 
 public class QueueDemo {
     public static void main(String[] args) {
         // Demo code for Queue implemented with Array
-        Queue q=new Queue();
+        QueueImplementation q=new QueueImplementation();
         q.offer(10);
         q.offer(20);
         q.offer(30);
@@ -16,7 +16,7 @@ public class QueueDemo {
 
     }
 }
-class Queue{
+class QueueImplementation{
     int a[]=new int[5];
     int first=0;
     int last=-1;
