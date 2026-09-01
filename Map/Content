@@ -1,0 +1,18 @@
+Map->key:value
+Key->Unique values->Duplicated
+HashMap->Un-ordered
+LinkedHashMap->Insertion order
+TreeMap->Sorted Order
+HashTable->Thread Safe
+Methods:
+    map.put(k,v)
+    map.get(k)
+    map.keySet()
+    map.values()
+    map.remove(k)
+    map.containsKey(k)
+    map.containsValue(v)
+    map.entrySet()//Get all values
+    map.clear()//Delete all values
+    map.isEmpty()
+    map.size()
