@@ -1,7 +1,7 @@
 //Selecting the Minimum and Swapping it with the first element of the unsorted array
 import java.util.*;
 public class SelectionSort {
-    public static void SelectionSort(int[]arr){
+    public static void selectionSort(int[]arr){
         int n=arr.length;
         for(int i=0;i<=n-2;i++){
             int min=i;
@@ -25,10 +25,11 @@ public class SelectionSort {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        SelectionSort(arr);
+        selectionSort(arr);
         System.out.println("Sorted array is:");
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
         }
+        sc.close();
     }
 }

@@ -13,7 +13,7 @@ public class StackLLDemo {
         System.out.println(s.contains(30));
     }
 }
-class Node{
+public class Node{
     int data;
     Node next;
     Node(int data){

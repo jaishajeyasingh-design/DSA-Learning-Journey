@@ -7,6 +7,7 @@ public class DeQueue {
         dq.offerFirst(10);
         dq.offerLast(20);
         dq.offerFirst(30);
+        dq.offerFirst(5);
         System.out.println(dq);
         dq.pollFirst();
         System.out.println(dq);
