@@ -14,5 +14,7 @@ public class SumOfArrays {
             sum+=arr[i];
         }
         System.out.println("Sum of the array elements is: "+sum);
+        double average=(double)sum/arr.length;
+        System.out.println("Average of array elements is: "+average);
     }
 }
